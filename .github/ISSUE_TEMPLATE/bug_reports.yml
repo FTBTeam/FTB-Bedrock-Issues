@@ -1,0 +1,39 @@
+name: Bug report
+description: >-
+  If you have an issue with our Bedrock content that isn't a feature request,
+  please use this form
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: input
+    id: content-name
+    attributes:
+      label: Bedrock Content
+      description: What Bedrock content are you having an issue with?
+      placeholder: Stoneblock
+    validations:
+      required: true
+  - type: textarea
+    id: whats-your-issue
+    attributes:
+      label: What's your issue
+      description: Please describe as clearly as possible what issue you are having
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: >-
+        Please provide steps to reproduce this issue so we can try and track
+        down the issue as quickly as possible
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Any extra information?
+      description: >-
+        Do you have any extra information that might help us resolve your issue
+        or provide extra context to your issue
