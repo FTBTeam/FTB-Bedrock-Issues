@@ -16,4 +16,4 @@ We sure do! We're even an Official Minecraft Partner. You can find our content [
 
 ## Discord
 
-Wanna just have a chat about the our mods? Jump on our [Discord](https://ftb.team/discord).
+Wanna just have a chat about our mods? Jump on our [Discord](https://ftb.team/discord).
