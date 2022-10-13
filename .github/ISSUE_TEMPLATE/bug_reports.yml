@@ -13,7 +13,7 @@ body:
       options:
         - Windows
         - iOS
-        - IPadOS
+        - iPadOS
         - Andriod
         - FireOS
         - Playstation 4
