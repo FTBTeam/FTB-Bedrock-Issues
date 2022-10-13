@@ -6,6 +6,23 @@ title: "[Bug]: "
 labels:
   - bug
 body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform (Xbox, Playstation, Windows, etc)
+      options:
+        - Windows
+        - iOS
+        - IPadOS
+        - Andriod
+        - FireOS
+        - Playstation 4
+        - Playstation 5
+        - Xbox One
+        - Xbox Series X/S
+        - Nintendo Swtich
+    validations:
+      required: true
   - type: input
     id: content-name
     attributes:
