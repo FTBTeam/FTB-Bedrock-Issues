@@ -21,6 +21,7 @@ body:
         - Xbox One
         - Xbox Series X/S
         - Nintendo Swtich
+        - Other (Please specify)
     validations:
       required: true
   - type: input
