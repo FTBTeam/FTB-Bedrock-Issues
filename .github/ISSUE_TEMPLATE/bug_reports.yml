@@ -4,7 +4,7 @@ description: >-
   please use this form
 title: "[Bug]: "
 labels:
-  - bug
+  - Bug
 body:
   - type: dropdown
     id: platform
