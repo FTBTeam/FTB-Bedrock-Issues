@@ -20,4 +20,4 @@ jobs:
           days-before-close: 3
           days-before-pr-close: -1
           stale-issue-label: 'Stale'
-          only-issue-labels: 'Awaiting Response'
+          only-issue-labels: 'Awaiting Reply'
