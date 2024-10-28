@@ -10,5 +10,6 @@ jobs:
     - name: Toggle label
       uses: FTBTeam/awaiting-reply-action@main
       with:
-        label: "Awaiting Reply"
+        awaiting-label: "Awaiting Reply"
+        replied-label: "@Replied"
         ignore-string: "!skip"
