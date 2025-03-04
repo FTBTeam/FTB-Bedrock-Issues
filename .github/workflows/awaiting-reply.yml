@@ -1,15 +1,15 @@
-on:
-  issue_comment:
-    types: [created]
+# on:
+#   issue_comment:
+#     types: [created]
   
-jobs:
-  hello_world_job:
-    runs-on: ubuntu-latest
-    name: Job for toggling label
-    steps:
-    - name: Toggle label
-      uses: FTBTeam/awaiting-reply-action@main
-      with:
-        awaiting-label: "Awaiting Reply"
-        replied-label: "@Replied"
-        ignore-string: "!skip"
+# jobs:
+#   hello_world_job:
+#     runs-on: ubuntu-latest
+#     name: Job for toggling label
+#     steps:
+#     - name: Toggle label
+#       uses: FTBTeam/awaiting-reply-action@main
+#       with:
+#         awaiting-label: "Awaiting Reply"
+#         replied-label: "@Replied"
+#         ignore-string: "!skip"
