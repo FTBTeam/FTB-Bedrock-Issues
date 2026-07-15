@@ -3,8 +3,7 @@ description: >-
   If you have an issue with our Bedrock content that isn't a feature request,
   please use this form
 title: "[Bug]: "
-labels:
-  - Bug
+type: 'Bug'
 body:
   - type: dropdown
     id: platform
